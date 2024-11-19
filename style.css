@@ -1,0 +1,432 @@
+*{
+    margin: 0;
+    padding: 0;
+    }
+    
+    body{
+    
+       background-image:  url(dark-blue-product-background.jpg);
+       color: white;
+        font-family: 'Poppins' , sans-serif; ;
+       
+    }
+    
+    nav{
+       display: flex;
+       justify-content: space-around;
+       align-items: center;
+       height: 80px;
+       background-color: rgb(35, 6, 57);
+    }
+    
+    nav ul{
+       display: flex;
+       justify-content: center;
+    
+    }
+    
+    nav ul li{
+       list-style: none;
+       margin: 0 23px;
+    }
+    
+    nav ul li a{
+       text-decoration: none;
+       color: white;
+    }
+    
+    nav ul li a:hover{
+       color: rgb(175, 175, 222);
+       font-size: 1.2rem ;
+    }
+    
+    .left{
+       font-size: 1.8rem; 
+    }
+    
+    .left img{
+       margin-top: 13px;
+       height: 65px;
+       width: 65px;
+    }
+    
+    .left:hover{
+     
+       color: rgb(175, 175, 222);
+    }
+    
+    .leftsection{
+       font-size: 1.3rem;
+       margin-right: 100px;
+    }
+    
+    .leftsection .buttons{
+       display: flex;
+    }
+    
+    .resume button {
+       height: 40px;
+       width: 260px;
+       border: 3px solid white ;
+       border-radius: 15px;
+       background-color: rgb(30, 86, 191);
+       margin-top: 50px;
+    }
+    
+    .github button {
+       height: 40px;
+       width: 150px;
+       border: 3px solid white ;
+       border-radius: 15px;
+       background-color: rgb(30, 86, 191);
+       margin-left: 10px;
+       margin-top: 50px;
+    }
+    .resume button i{
+       font-size: 20px;
+    }
+    .resume button a{
+       text-decoration: none;
+      color: black;
+      font-weight: 800;
+    }
+    
+    .github button i{
+       font-size: 20px;
+    }
+    .github button a{
+       text-decoration: none;
+       color: black;
+       font-weight: 700;
+    }
+    
+    .rightsection img{
+      width: 80%;
+      margin-left: 100px;
+      height: 350px;
+      width: 550px;
+      border: 5px solid;
+      border-radius: 10%;
+    }
+    
+    
+    .firstsection{
+       margin: auto;
+       max-width: 80vw;
+       padding: 35px;
+    }
+    
+    .firstsection{
+       display: flex;
+       justify-content:center ;
+       align-items: center;
+       margin: 100px 0;
+    }
+    
+    .firstsection >div{
+       width: 30%;
+    }
+    
+    .blue{
+       color: rgb(142, 75, 205);
+    }
+    
+    .text-grey{
+       color:grey;
+    }
+    
+    #element{
+       color: rgb(114, 114, 219);
+    }
+    
+    .profile-photo{
+       margin-left: 100px;
+
+    }
+    .profile-photo:hover{
+
+      transition: 0.75s;
+      border-radius: 70%;
+    }
+    .aboutsection img{
+       height: 275px;
+       width: 265px;
+       margin: 75px;
+       border-radius: 60%;
+       border: 5px solid white;
+    }
+    
+    
+    .aboutsection{
+       margin: auto;
+       max-width: 80vw;
+        padding: 85px;
+    }
+    
+    .aboutsection h1{
+       font-size: 1.9rem;
+       margin-right: 150px;
+    }
+    
+    .aboutsection{
+       display:flex;
+       justify-content: center;
+       align-items: center;
+    }
+    
+    
+    .About-Me{
+       letter-spacing: 2px;
+       line-height: 30px ;
+    }
+    .secondsection{
+       margin: auto;
+       max-width: 80vw;
+        padding: 30px;
+    }
+    
+    .secondsection h3{
+       color: white;
+    }
+    
+    .secondsection h1{
+       font-size: 1.9rem;
+    }
+    
+    main hr{
+       border: 0;
+       height: 1.2px;
+       background-color: rgb(123, 123, 216);
+       margin: 40px 84px;
+    }
+    
+    .secondsection .box{
+       background-color: white;
+       width: 80vw;
+       height: 2px;
+       margin:6px 0 ;
+       display: flex;
+    }
+    
+    .box-1 a{
+       text-decoration: none;
+       color: white;
+    }
+    
+    .box-1 i{
+       height: 30px;
+       width: 50px;
+       margin-left: 25px;
+       font-size: 35px;
+    }
+    
+    .box-1 i:hover{
+       font-size: 1.6rem;
+    }
+    
+    h3:hover{
+       text-decoration: underline;
+    }
+    
+    .thirdsection{
+       margin: auto;
+       max-width: 80vw;
+       padding-top: 30px;
+       padding-bottom: 280px;
+    }
+    
+    .thirdsection h1{
+       font-size: 1.9rem;
+    }
+    
+    .thirdsection .box-2{
+       background-color: white;
+       width: 80vw;
+       height: 2px;
+       margin:8px 0 ;
+       display: flex;
+    }
+    
+    .amazon{
+       margin:50px 0 0 100px;
+       height: 250px;
+       width: 250px;
+       border:3px  ridge;
+       border-radius: 16%;
+    }
+    
+    .amazon i{
+       margin-top: 5vh;
+       margin-left: 8vh;
+       margin-bottom: 1vh;
+       font-size: 100px;
+    }
+    
+    .amazon i:hover{
+       font-size:  110px ;
+       transition: 1s;
+    }
+    
+    .box-3 span{
+      margin-left: 18%;
+      font-weight: 200;
+      font-family: 'Gill Sans';
+      font-size: 1.2rem;
+
+    }
+    
+    
+    
+    .spotify{
+       margin:50px 0 0 100px;
+       height: 250px;
+       width: 250px;
+       border:3px  ridge;
+       border-radius: 16%;
+       justify-content: center;
+      
+    }
+    
+    .spotify i{
+       margin-top: 5vh;
+       margin-left: 8vh;
+       margin-bottom: 1vh;
+       font-size: 100px;
+       justify-content: center;
+    }
+    
+    .spotify i:hover{
+       font-size:120px ;
+       transition: 1s;
+
+    }
+    
+    .box-3{
+       display: flex;
+    }
+    
+    .calculator{
+       margin:50px 0 0 100px;
+       height: 250px;
+       width: 250px;
+       border:3px  ridge;
+       border-radius: 16%;
+      
+    }
+    
+    .calculator i{
+       margin-top: 5vh;
+       margin-left: 8vh;
+       margin-bottom: 1vh;
+       font-size: 100px;
+    }
+    
+    .calculator i:hover{
+       font-size:110px ;
+       transition: 0.5s;
+    }
+    
+    .fourthsection{
+       margin: auto;
+       max-width: 80vw;
+       padding:150px;
+    }
+    
+    .fourthsection h1{
+       font-size: 1.9rem;
+    }
+    
+    .fourthsection .box-4{
+       background-color: white;
+       width: 80vw;
+       height: 2px;
+       margin:8px 0 ;
+       display: flex;
+    }
+    
+    
+    .phone{
+       margin:50px 0 0 100px;
+       height: 200px;
+       width: 200px;
+       border:3px  ridge;
+       border-radius: 16%;
+       background-color: white;
+       color: black;
+    }
+    
+    .phone i{
+       margin-top: 4vh;
+       margin-left: 6vh;
+       margin-bottom: 1vh;
+       font-size: 100px;
+    }
+    
+    .phone i:hover{
+       font-size:120px ;
+       transition: 1s;
+    }
+       
+    .box-5 span{
+       margin-left: 4%;
+       font-weight: 500;
+       font-family: 'Gill Sans';
+       font-size: 1rem;
+     }
+    
+     .mail{
+       margin:50px 0 0 100px;
+       height: 200px;
+       width: 200px;
+       border:3px  ridge;
+       border-radius: 16%;
+       background-color: white;
+       color: black;
+    }
+    
+    .mail i{
+       margin-top: 4vh;
+       margin-left: 6vh;
+       margin-bottom: 1vh;
+       font-size: 100px;
+    }
+     
+    .mail i:hover{
+       font-size:120px ;
+       transition: 1s;
+    }
+    
+    .box-5{
+       display: flex;
+    }
+    
+    .box-5 .mail span{
+       font-size: 15px;
+    } 
+    
+    .address{
+       margin:50px 0 0 100px;
+       height: 200px;
+       width: 200px;
+       border:3px  ridge;
+       border-radius: 16%;
+       background-color: white;
+       color: black;
+    }
+    
+    .address i{
+       margin-top: 4vh;
+       margin-left: 8vh;
+       margin-bottom: 1vh;
+       font-size: 100px;
+    }
+    
+    .address i:hover{
+       font-size:120px ;
+       transition: 1s;
+    }
+    
+    .box-5 .address span{
+       font-size: 18px;
+       margin-left: 10px;
+    } 
